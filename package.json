@@ -1,0 +1,32 @@
+{
+  "name": "tai-xiu-predictor",
+  "version": "1.0.0",
+  "description": "API 68",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "tai-xiu",
+    "prediction",
+    "ai",
+    "express",
+    "brain.js",
+    "markov",
+    "monte-carlo",
+    "bayesian"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "mathjs": "^11.11.0",
+    "brain.js": "^2.0.0-beta.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
